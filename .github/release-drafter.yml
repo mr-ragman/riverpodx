@@ -1,0 +1,29 @@
+name-template: "🚀 v$NEXT_PATCH_VERSION"
+tag-template: "v$NEXT_PATCH_VERSION"
+categories:
+  - title: "🎉 New Features"
+    labels:
+      - "feature"
+  - title: "🐛 Bug Fixes"
+    labels:
+      - "bug"
+  - title: "🛠 Improvements"
+    labels:
+      - "enhancement"
+  - title: "🧰 Maintenance"
+    labels:
+      - "chore"
+change-template: "- $TITLE by @$AUTHOR"
+template: |
+  ## 🚀 What's New
+
+  $CHANGES
+
+  ### 🔄 Breaking Changes
+  - _If applicable, list breaking changes here._
+
+  ### 📦 Dependency Updates
+  - _List updated dependencies here._
+
+  ---
+  🎉 Thanks to all contributors! 🚀🔥
