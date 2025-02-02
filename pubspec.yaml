@@ -9,6 +9,8 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  flutter:
+    sdk: flutter
   riverpod: ^2.4.0
   flutter_riverpod: ^2.4.0 
 
