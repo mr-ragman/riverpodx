@@ -1,0 +1,19 @@
+name: riverpodx
+description: A lightweight helper package to simplify Riverpod APIs for state management for both Dart and Flutter.
+version: 0.1.0
+repository: https://github.com/mr-ragman/riverpodx
+homepage: https://pub.dev/packages/riverpodx
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Add regular dependencies here.
+dependencies:
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hooks_riverpod: ^2.0.0
+  lints: ^3.0.0
