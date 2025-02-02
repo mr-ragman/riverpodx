@@ -3,7 +3,7 @@ library riverpodx;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// A custom extension on [Ref] to simplify state management.
-/// 
+///
 /// Dart implementation
 extension RiverpodXRef on Ref {
   /// Reads the state of a provider.

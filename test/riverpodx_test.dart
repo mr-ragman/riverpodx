@@ -36,7 +36,6 @@ void main() {
   });
 
   test('State notifiers extension test', () {
-
     final container = ProviderContainer();
 
     // State notifiers
